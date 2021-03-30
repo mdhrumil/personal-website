@@ -37,7 +37,12 @@
     padding-top: 1px;
 }
 
-.list {
+.listStyled {
+    padding: 0;
+    margin: 0;
+}
+
+.listUnstyled {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -49,4 +54,9 @@
 
 .lightText {
     color: #666;
+}
+
+.textJustifier {
+    text-align: justify;
+    text-justify: inter-word;
 }
