@@ -23,18 +23,22 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p className = {utilStyles.textJustifier}>
-          Hi, I'm a general software engineer with core skills in full-stack web development and applied deep learning. Some of my interests include studying cryptocurrencies and blockchain technology, artificial intelligence, and technology startups. I also like to invest in stocks and crypto. Some background on me:
+          Hi, I'm a general software engineer with core skills in full-stack web development, applied deep learning, and Solidity programming. Some of my interests include studying cryptocurrencies and blockchain technology, artificial intelligence, and technology startups. I also like to invest in stocks and crypto. Some background on me:
         </p>
         <ul className = {utilStyles.listStyled}>
           <li className = {utilStyles.listItem}>
-            MS in Computer Science - Rochester Institute of Technology - Summer 2021
+            Current - Software Engineer 2 @ eBay, developing backend web services using Spring MVC
           </li>
           <li className = {utilStyles.listItem}>
-            Software Engineer Intern - eBay Inc - Summer 2020
+            Previously - Software Engineer Intern @ eBay, Developing frontend web apps usign React and backend web services using Spring MVC
           </li>
+          <li className = {utilStyles.listItem}>
+            Education - Rochester Institute of Technology, MS in Computer Science - May 2021
+          </li>
+          
         </ul>
         <p>
-          Connect with me via {' '}
+          Contact me via {' '}
           <Link href = {"mailto: mehtadhrumil97@gmail.com"}>
             <a>email</a>
           </Link>
