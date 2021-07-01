@@ -14,4 +14,5 @@ New concept learned:
  -   Every time you interact with a smart contract, its code is executed in the EVM, and you pass a data field representing which function you want to call.
 
 If you're reading this, thank you.
+
 Dhrumil

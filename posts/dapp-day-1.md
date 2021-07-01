@@ -14,4 +14,5 @@ New concept learned:
 Geth: Geth is an Ethereum node implementation written in the Go programming language. Using Geth, one can run an Ethereum node on their local machine and use it to verify blocks of transactions on Ethereum and mine Ether.
 
 If you're reading this, thank you.
+
 Dhrumil
