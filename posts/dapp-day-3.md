@@ -5,7 +5,7 @@ date: '2021-07-02'
 
 Welcome to Day 3 of this journey.
 
-Today I read the third and fourth chapter of the book: [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook) - Ethereum clients, and Cryptography.
+Today I read the third, fourth, fifth, and sixth chapters of the book: [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook) - Ethereum clients, Cryptography, Wallets, and Transactions.
 
 In the third chapter, I learned about Ethereum networks and different types of Ethereum clients.
 Ethereum networks are basically blockchain networks that conform and follow the specifications in Ethereum Yellow paper and may or may not conform to the proposals put forth by Ethereum Improvement Proposals (EIP). Some examples of Ethereum networks are: Ethereum, Ethereum Classic, Ella, Expanse and others.
@@ -20,8 +20,22 @@ In the fourth chapter, I learned about how cryptography plays a role in the bloc
 
 Note: Keep your private keys private to your self because the one who possesses the private key of an account has the authority over its ethers.
 
+In the fifth chapter, I learned about the role of wallets, how they're created and different types of wallets. There are two primary types of wallets: non-deterministic and deterministic. Non-deterministic wallets are those which creates all the multiple key pairs randomly, independently of each other and can keep on generating private keys randomly as needed. One positive thing about non-deterministic wallets is that there is no defined relationship between the keys, but that also comes with the cost of complex management as more keys are created and especially if used for multiple different token transactions. Deterministic wallets such as Metamask, Coinbase wallet uses a seed mnemonic phrase that is responsible for creating a set of key pairs. Usually you would want to have multiple key pairs as having only one is not only unsafe but can also make it easier to track your payments. The seed mnemonic phrase will derive the same key pairs every time. The phrase is usually a combination of 12-24 English words. The mnemonic phrase is easier to remember than remembering the long hexa-decimal seed. 
+
+In the sixth chapter, I learned about transactions. Transactions are what causes the Ethereum network's change of state. It can either be transfer of tokens or ethers, or it can be calls to functions of smart contracts on the network. It is important to have a defined nonce value since it will: 
+ - Help to keep track of the order of transactions so that each of them are executed sequentially.
+ - Avoids a transaction to be duplicated in the cases of attack.
+
+Other parameters that a transaction should have are "value" and "data". Both the parameters are optional. Value defines the amount of ethers to be transferred in wei (1 ether = 10<sup>18</sup> wei), and Data defines the message to be called in case if the recipient of the transaction is an EOA or may indicate the function call in case if the recipient of the transaction is a smart contract. 
+
+Transactions that are addressed to 0x000..00 address are simply for deploying the smart contracts to the chain.
+
+Ethers sent to the public addresses that do not exist yet are called to be "burnt" since those ethers are now forever lost (There's no way to access the public key since you'd want a private key from which that public key is derived and the chances of one coincidently getting a public key with already burnt ethers is near to 0%).
+
 New concept learned:
  - Merkle proofs, and elliptical curve cryptography. They are one of the most interesting technical concepts I've read about till date.
+ - Importance of Nonce
+ - How mnemonic phrases are created.
 
 If you're reading this, thank you.
 
