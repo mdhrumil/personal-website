@@ -21,7 +21,7 @@ The new things that I learned in this chapter includes:
    - cannot have non-constant/mutable state variables.
    - does not log events.
 
-Fun story: In my first blockchain interview that I failed miserably, one of the questions was, "What are call, and delegatecall functions in Solidity?", and I didn't know the answer. I'm glad that I know it now.
+Fun story: In my first blockchain interview (that I failed miserably), one of the questions was, "What are call, and delegatecall functions in Solidity?", and I didn't know the answer. I'm glad that I know it now.
 
 If you're reading this, thank you.
 
