@@ -65,8 +65,11 @@ When the attacker will call the attack() function of this contract, it will depo
 Solidity provides 4 visibility specifiers that dictate who can call the functions in the contract. 
 
 > **public** - Can be called by external accounts, contracts, and internally from within the contract.
+> 
 > **external** - Can only be called by external accounts and contracts.
+> 
 > **private** - Can only be called from within the contract.
+> 
 > **internal** - Can only be called internally from within the contract, and from its derived contracts.
 
 By default, the functions in Solidity are public. This means, that if one fails to specify the visibility for crucial functions, especially those which transfer ethers/tokens, it can be called by anyone on the network. A [real-life case](https://www.freecodecamp.org/news/a-hacker-stole-31m-of-ether-how-it-happened-and-what-it-means-for-ethereum-9e5dc29e33ce/) where an attacker stole $31M worth of ethers by exploiting this vulnerability.
