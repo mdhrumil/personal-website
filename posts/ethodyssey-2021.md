@@ -1,5 +1,5 @@
 ---
-title: 'My experience with ETHOdyssey's hackathon'
+title: 'My experience with ETHOdyssey hackathon'
 date: '2021-08-02'
 ---
 
