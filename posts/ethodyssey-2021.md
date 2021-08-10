@@ -8,7 +8,7 @@ It's been a while since I last posted anything on my blog. I've been occupied wi
 
 Solana has been there for quite a while and is one of the serious competitors to Ethereum. I'm planning to participate in another month long hackathon, Building Out Loud, by Solana India. It will be a great learning experience, and I'm looking forward to submit a rocking project submission for both the hackathons.
 
-Hackathons are really cool. I've been attending them since my mid-undergrad years, and I've always learned a lot from all of them. There are a lot many hackathons in the crypto space and a lot of developers are onboarding with crypto development everyday. There are exciting times. Crypto has a huge potential and just like I say it to everyone I meet: The future, is decentralized.
+Hackathons are really cool. I've been attending them since my mid-undergrad years, and I've always learned a lot from all of them. There are a lot many hackathons in the crypto space and a lot of developers are onboarding with crypto development everyday. These are exciting times. Crypto has a huge potential and just like I say it to everyone I meet: The future, is decentralized.
 
 
 If you're reading this, thank you. 
