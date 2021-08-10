@@ -1,6 +1,6 @@
 ---
 title: 'Superfans - Be the biggest fan of your favorite celebrity.'
-date: '2021-08-02'
+date: '2021-08-10'
 ---
 
 ETHOdyssey hackathon just got ended last Sunday. Here's what I submitted:
