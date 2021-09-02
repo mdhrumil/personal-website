@@ -37,10 +37,10 @@ export default function Layout ({children, home}){
                     <>
                         <Image
                             priority
-                            src = "/images/myphoto.png"
+                            src = "/images/Aurorian.png"
                             className={utilStyles.borderCircle}
                             height = {180}
-                            width = {180}
+                            width = {160}
                             alt = {name}
                         />
                         <h1 className = {utilStyles.heading2Xl}>{name}</h1>
@@ -51,10 +51,10 @@ export default function Layout ({children, home}){
                             <a>
                                 <Image
                                     priority
-                                    src = "/images/myphoto.png"
+                                    src = "/images/Aurorian.png"
                                     className = {utilStyles.borderCircle}
                                     height = {180}
-                                    width = {180}
+                                    width = {160}
                                     alt = {name}
                                 />
                             </a>

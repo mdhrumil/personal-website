@@ -27,7 +27,12 @@ export default function Home({ allPostsData }) {
         </p>
         <ul className = {utilStyles.listStyled}>
           <li className = {utilStyles.listItem}>
-            Current - Software Engineer 2 @ eBay, developing backend web services using Spring MVC
+            Building <Link href = {"https://solventprotocol.com/"}>
+                      <a>Solvent Protocol</a>
+                    </Link>
+          </li>
+          <li className = {utilStyles.listItem}>
+            Software Engineer 2 @ eBay, developing backend web services using Spring MVC
           </li>
           <li className = {utilStyles.listItem}>
             Previously - Software Engineer Intern @ eBay, Developing frontend web apps usign React and backend web services using Spring MVC
@@ -35,7 +40,11 @@ export default function Home({ allPostsData }) {
           <li className = {utilStyles.listItem}>
             Education - Rochester Institute of Technology, MS in Computer Science - May 2021
           </li>
-          
+          <li className = {utilStyles.listItem}>
+            <Link href = {"https://github.com/mdhrumil"}>
+              <a>GitHub</a>
+            </Link>
+          </li>
         </ul>
         <p>
           Contact me via {' '}
