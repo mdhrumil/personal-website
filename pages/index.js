@@ -23,39 +23,36 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p className = {utilStyles.textJustifier}>
-          Hi, I'm a general software engineer with core skills in full-stack web development, applied deep learning, and Solidity programming. Some of my interests include studying cryptocurrencies and blockchain technology, artificial intelligence, and technology startups. I also like to invest in stocks and crypto. Some background on me:
+                  Hi!
+
+          Welcome to my website/blog. I write about my experiences and thoughts on ideas and concepts, including but not limited to web3, tech companies and startups, software engineering, and crypto.
+
+          I'm a generalist software engineer, have previous experience with full-stack web dev, applied deep learning, and web3 DApp development.
+          My core interests these days lie in NFTs, decentralized finance, protocol design, and research.
         </p>
         <ul className = {utilStyles.listStyled}>
           <li className = {utilStyles.listItem}>
-            Building <Link href = {"https://solventprotocol.com/"}>
-                      <a>Solvent Protocol</a>
+            Currently building the NFT liquidity platform on Solana - <Link target="_blank" href = {"https://solvent.xyz/"}>
+                      <a target="_blank">Solvent</a>
                     </Link>
           </li>
           <li className = {utilStyles.listItem}>
-            Software Engineer 2 @ eBay, developing backend web services using Spring MVC
+            Previously: Software Engg @ eBay
           </li>
           <li className = {utilStyles.listItem}>
-            Previously - Software Engineer Intern @ eBay, Developing frontend web apps usign React and backend web services using Spring MVC
-          </li>
-          <li className = {utilStyles.listItem}>
-            Education - Rochester Institute of Technology, MS in Computer Science - May 2021
+            RIT CS Grad May 2021
           </li>
           <li className = {utilStyles.listItem}>
             <Link href = {"https://github.com/mdhrumil"}>
-              <a>GitHub</a>
+              <a target="_blank">GitHub</a>
             </Link>
           </li>
         </ul>
         <p>
-          Contact me via {' '}
-          <Link href = {"mailto: mehtadhrumil97@gmail.com"}>
-            <a>email</a>
-          </Link>
-          {''} or {' '}
+          DM me on {' '}
           <Link href = {"https://twitter.com/mmdhrumil"}>
-            <a>twitter</a>
+            <a target="_blank">twitter</a>
           </Link>
-          .
         </p>
         
 
